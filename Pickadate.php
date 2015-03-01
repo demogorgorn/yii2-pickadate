@@ -72,6 +72,6 @@ class Pickadate extends \yii\widgets\InputWidget
         if ($this->varName !== null)
             $js = "var {$this->varName} = {$js}";
 
-        $this->getView()->registerJs($js, View::POS_END);
+        $this->getView()->registerJs($js, \yii\base\View::POS_END);
     }
 }
