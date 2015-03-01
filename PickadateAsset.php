@@ -21,7 +21,7 @@ class PickadateAsset extends \yii\web\AssetBundle
 
     public $js = [ 'picker.js', 'picker.date.js' ];
 
-    public $css = [ 'themes/default.css' ];
+    public $css = [ 'themes/default.css', 'themes/default.date.css' ];
 
     public $depends = [
         'yii\web\JqueryAsset',
